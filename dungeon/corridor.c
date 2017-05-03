@@ -17,7 +17,7 @@ void	display_wall(t_main *main)
 	map = ALGO->first;
 	while (map)
 	{
-		if (map->use == 0 && map->x != -1 && map->y < ALGO->max_y - 1)
+		if (map->use == 0 && map->x != -1 && map->y < ALGO->max_y + 2)
 			sfRenderWindow_drawRectangleShape(INIT->window, map->rect, NULL);
 		map = map->next;
 	}

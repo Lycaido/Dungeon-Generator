@@ -57,7 +57,7 @@ char	create_cell(t_main *main)
 			map->x = ALGO->x;
 			map->y = ALGO->y;
 			if (map->y <= 1 || (map->x < 2 || map->x >= ALGO->max_x - 2)
-				|| (map->y >= ALGO->max_y - 4))
+				|| (map->y >= ALGO->max_y))
 				map->use = 1;
 			else
 				map->use = 0;
@@ -72,7 +72,7 @@ char	create_cell(t_main *main)
 			map->y = ALGO->y;
 			map->x = ALGO->x;
 			if (map->y <= 1 || (map->x < 2 || map->x >= ALGO->max_x - 2)
-				|| (map->y >= ALGO->max_y - 4))
+				|| (map->y >= ALGO->max_y))
 				map->use = 1;
 			else
 				map->use = 0;

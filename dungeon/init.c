@@ -97,7 +97,7 @@ int		init(t_main *main)
 	init_texture(main);
 	init_algo(main);
 	create_map(main);
-	ALGO->max_y -= 8;
+	ALGO->max_y -= 5;
 	ALGO->max_x -= 5;
 	srand(time(NULL));
 	return (0);
