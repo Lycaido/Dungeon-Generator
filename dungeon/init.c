@@ -48,7 +48,7 @@ void	init_algo(t_main *main)
 	ALGO->y = 0;
 	ALGO->nb_cell = 0;
 	ALGO->first = NULL;
-	ALGO->max_y = (main->height / main->size_map) - 2;
+	ALGO->max_y = (main->height / main->size_map) - 1;
 	ALGO->max_x = (main->width / main->size_map) - 2;
 	ALGO->pos.y = main->size_map;
 	ALGO->pos.x = main->size_map;
